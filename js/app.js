@@ -179,7 +179,8 @@
 
 
   /* Welcome screen */
-  $('#welcome button').addEventListener('click', function() {
+  $('#welcome .addlink').addEventListener('click', function(e) {
+    e.preventDefault();
     deck.selectedCard = $('#add');
     $('#add input').focus();
   });

@@ -125,3 +125,12 @@ button {
 #keytype label {
     margin: .5em;
 }
+
+#main .upgradenotice {
+    bottom: 0;
+    margin: .2em;
+    opacity: .3;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
